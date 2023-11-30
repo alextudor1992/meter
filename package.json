@@ -7,9 +7,13 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "check": "svelte-check --tsconfig ./tsconfig.json"
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "story:dev": "histoire dev",
+    "story:build": "histoire build",
+    "story:preview": "histoire preview"
   },
   "devDependencies": {
+    "@histoire/plugin-svelte": "^0.17.6",
     "@sveltejs/vite-plugin-svelte": "^3.0.0",
     "@tsconfig/svelte": "^5.0.2",
     "@types/postcss-mixins": "^9.0.5",
@@ -33,8 +37,5 @@
     "typescript": "^5.2.2",
     "vite": "^5.0.0",
     "wrangler": "^3.17.1"
-  },
-  "dependencies": {
-    "@tabler/icons-svelte": "^2.42.0"
   }
 }
