@@ -21,8 +21,8 @@
 
 </style>
 
-<div class="flex align-middle gap-2">
-  <div class="w-1/3 p-4">
+<div class="flex flex-col justify-center content-center gap-8">
+  <div class="w-1/2 p-4 m-auto">
     <input on:input={setValue} type="number" class="p-4 w-full" placeholder="Value between 0.00 and 1.00" min="0" max="1" step="0.01"/>
   </div>
 
